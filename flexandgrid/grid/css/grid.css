@@ -1,0 +1,15 @@
+body {
+    background-color: #ad9e9e;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    gap: 20px;
+}
+
+.para {
+    background-color: steelblue;
+    color: #fff;
+    padding: 1rem;
+}
